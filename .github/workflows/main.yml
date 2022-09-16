@@ -11,7 +11,11 @@ jobs:
 #-----------------------------------------------M0S0F
     - uses: actions/checkout@v3
     - name: M0S0F D0O0W0N0L0O0A0D
-      run: ./M0S0F-D0O0W0N0L0O0A0D.ps1
+      shell: pwsh
+      run: |
+        .\build.ps1
+        
+  #    run: ./M0S0F-D0O0W0N0L0O0A0D.ps1
 
 
 #---------------------------------------------- N0J0R0O0K
