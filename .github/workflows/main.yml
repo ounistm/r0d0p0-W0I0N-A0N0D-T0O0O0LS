@@ -13,7 +13,7 @@ jobs:
     - name: M0S0F D0O0W0N0L0O0A0D
       shell: pwsh
       run: |
-        .\build.ps1
+        .\M0S0F-D0O0W0N0L0O0A0D.ps1
         
   #    run: ./M0S0F-D0O0W0N0L0O0A0D.ps1
 
