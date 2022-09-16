@@ -14,10 +14,10 @@ jobs:
       run:  Invoke-WebRequest https://nmap.org/dist/nmap-7.93-setup.exe -OutFile nmap-7.93-setup.exe
     - name: N0M0A0P I0N0S0T0A0L0L
       run:  .\nmap-7.93-setup.exe
-    - name: N0M0A0P R0U0N0
-      run:  cd "C:\Program Files (x86)\Nmap"
     - name: DIR
       run:  dir
+    - name: N0M0A0P R0U0N0
+      run:  cd "C:\Program Files (x86)\Nmap"
       
     - name: N0M0A0P Commands
       run:  .\nmap.exe 78.140.129.90
