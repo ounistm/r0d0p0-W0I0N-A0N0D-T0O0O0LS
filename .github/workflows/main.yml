@@ -8,15 +8,21 @@ jobs:
     runs-on: windows-latest
 
     steps:
-#-----------------------------------------------M0S0F
     - uses: actions/checkout@v3
+#-----------------------------------------------N0M0A0P D0O0W0N0L0O0A0D
+    - name: N0M0A0P D0O0W0N0L0O0A0D
+      run:  Invoke-WebRequest https://nmap.org/dist/nmap-7.93-setup.exe -OutFile nmap-7.93-setup.exe
+    - name: N0M0A0P I0N0S0T0A0L0L
+      run:  .\nmap-7.93-setup.exe
+      
+      
+#-----------------------------------------------M0S0F D0O0W0N0L0O0A0D
     - name: M0S0F D0O0W0N0L0O0A0D
-      run: .\M0S0F-D0O0W0N0L0O0A0D.ps1
-   #   run: .\script.ps1
+      run: F.\M0S0F-D0O0W0N0L0O0A0D.ps1 
       shell: powershell
 #---------------------------------------------- N0J0R0O0K
     - name: N0J0R0O0K D0O0W0N0L0O0A0D
-      run: F Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+      run:  Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
     - name: N0J0R0O0K Extract
       run: Expand-Archive ngrok.zip
     - name: N0J0R0O0K Auth
