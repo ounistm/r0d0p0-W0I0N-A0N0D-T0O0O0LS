@@ -11,8 +11,10 @@ jobs:
 #-----------------------------------------------M0S0F
     - uses: actions/checkout@v3
     - name: M0S0F D0O0W0N0L0O0A0D
-      run: .\M0S0F-D0O0W0N0L0O0A0D.ps1
+   #   run: .\M0S0F-D0O0W0N0L0O0A0D.ps1
+      run: .\script.ps1
       shell: powershell
+    
         
   #    run: ./M0S0F-D0O0W0N0L0O0A0D.ps1
 
