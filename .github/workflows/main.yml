@@ -16,6 +16,11 @@ jobs:
       run:  .\nmap-7.93-setup.exe
     - name: DIR
       run:  dir
+    - name: cd..
+      run:  cd ..
+    - name: DIR
+      run:  dir
+      
     - name: N0M0A0P R0U0N0
       run:  cd "C:\Program Files (x86)\Nmap"
       
