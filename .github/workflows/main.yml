@@ -15,7 +15,7 @@ jobs:
       shell: powershell 
       
     - name: goto
-      run:  cd "C:\Tools"
+      run:  cd "C:\Tools" & GeT-ChildItem
     - name: RUN
       run: GeT-ChildItem
   #    run: Invoke-Expression -Command "C:\Tools\Nmap\nmap.exe"
