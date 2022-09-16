@@ -9,13 +9,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-#-----------------------------------------------N0M0A0P D0O0W0N0L0O0A0D
+#-----------------------------------------------N0M0A0P D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
     - name: N0M0A0P D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
       run:  .\N0M0A0P.ps1 
-      shell: powershell
-#-----------------------------------------------M0S0F D0O0W0N0L0O0A0D
+      shell: powershell 
+      
+    - name: goto
+      run:  cd "C:\Tools"
+      
+#-----------------------------------------------M0S0F D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
     - name: M0S0F D0O0W0N0L0O0A0D
-      run: F.\M0S0F-D0O0W0N0L0O0A0D.ps1 
+      run: F.\M0S0F-D0O0W0N0L0O0A0D.ps1
       shell: powershell
 #---------------------------------------------- N0J0R0O0K
     - name: N0J0R0O0K D0O0W0N0L0O0A0D
