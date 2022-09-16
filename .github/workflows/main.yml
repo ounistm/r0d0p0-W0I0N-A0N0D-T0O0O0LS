@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v3
 #-----------------------------------------------N0M0A0P D0O0W0N0L0O0A0D
     - name: N0M0A0P D0O0W0N0L0O0A0D
-      run:  Invoke-WebRequest https://nmap.org/dist/nmap-7.93-setup.exe -OutFile nmap-7.93-setup.exe INSTALLLOCATION="C:\Tools"
+      run:  Invoke-WebRequest https://nmap.org/dist/nmap-7.93-setup.exe -OutFile nmap-7.93-setup.exe & INSTALLLOCATION="C:\Tools"
   #  - name: N0M0A0P I0N0S0T0A0L0L
   #    run:  .\nmap-7.93-setup.exe
     - name: N0M0A0P R0U0N0
