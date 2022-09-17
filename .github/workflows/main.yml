@@ -16,6 +16,7 @@ jobs:
       
     - name: goto and run
       run: |
+       cd "C:\Tools"
        GeT-ChildItem
  #      cd "C:\Tools"      
  #      dir
