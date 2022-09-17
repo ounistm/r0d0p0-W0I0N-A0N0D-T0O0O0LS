@@ -17,6 +17,7 @@ jobs:
     - name: C
       run: |
        Get-ChildItem -Path C:\
+       Get-ChildItem -Path C:\tools
 #-----------------------------------------------M0S0F D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
     - name: M0S0F D0O0W0N0L0O0A0D
       run: F.\M0S0F-D0O0W0N0L0O0A0D.ps1
