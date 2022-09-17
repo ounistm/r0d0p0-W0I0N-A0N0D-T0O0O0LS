@@ -14,14 +14,10 @@ jobs:
       run:  .\N0M0A0P.ps1 
       shell: powershell 
       
-    - name: goto and run
+    - name: C
       run: |
-       cd "C:\Tools"
+       cd "C:\"
        GeT-ChildItem
- #      cd "C:\Tools"      
- #      dir
-     #  Invoke-Expression -Command "C:\Tools\Nmap\nmap.exe"
-    
 #-----------------------------------------------M0S0F D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
     - name: M0S0F D0O0W0N0L0O0A0D
       run: F.\M0S0F-D0O0W0N0L0O0A0D.ps1
