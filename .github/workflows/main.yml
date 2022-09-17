@@ -23,8 +23,8 @@ jobs:
        cd C:\aaa
        Get-ChildItem
        
-       cd aaa
-       Get-ChildItem
+   #    cd aaa
+   #    Get-ChildItem
        
     #   cd "Program Files (x86)"
     #   Get-ChildItem
