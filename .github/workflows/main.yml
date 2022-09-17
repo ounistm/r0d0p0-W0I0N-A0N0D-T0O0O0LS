@@ -13,7 +13,7 @@ jobs:
    # - name: N0M0A0P D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
    #   run:  .\N0M0A0P.ps1 
    #   shell: powershell 
-    - name: nmap multi steps
+    - name: nmap download
       run: Invoke-WebRequest https://nmap.org/dist/nmap-7.93-setup.exe -OutFile nmap-7.93-setup.exe
         
     - name: instal it
@@ -21,6 +21,7 @@ jobs:
       
     - name: goto
       run: |
+       cd C:\
        Get-ChildItem
        Get-ChildItem -Path '"C:\Program Files (x86)"'
 #-----------------------------------------------M0S0F D0O0W0N0L0O0A0D and I0N0S0T0A0L0L
