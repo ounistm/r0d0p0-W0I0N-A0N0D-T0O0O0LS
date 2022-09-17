@@ -20,7 +20,7 @@ jobs:
       
     - name: C
       run: |
-       cd C:\aaa
+       cd C:
        Get-ChildItem
     - name: Program Files
       run: |
