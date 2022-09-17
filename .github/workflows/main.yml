@@ -20,7 +20,7 @@ jobs:
       
     - name: goto
       run: |
-       cd C:\
+       cd C:\aaa
        Get-ChildItem
        
        cd aaa
