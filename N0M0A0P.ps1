@@ -2,7 +2,7 @@
 Param(
     $DownloadURL = " https://nmap.org/dist/nmap-7.93-setup.exe",
     $DownloadLocation = "$env:APPDATA/Nmap",
-    $InstallLocation = "C:\Tools",
+    $InstallLocation = "C:\aaa",
     $LogLocation = "$DownloadLocation/install.log"
 )
 
